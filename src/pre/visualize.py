@@ -75,11 +75,13 @@ def draw(
     ax=None,
     xlabel: str = None,
     title: str = None,
+    filename: str = None,
 ) -> None:
     raw_im = fits2numpy(fits_path)
     im = preprocess(raw_im)
     im_lognorm = preprocess_lognorm(raw_im)
-    filename = fits_path.split("/")[-1].split(".")[0]
+    if filename is None:
+        filename = fits_path.split("/")[-1].split(".")[0]
     if npy and npy_log_path is not None and npy_path is not None:
         np.save(f"{npy_path}/{filename}", im)
         np.save(f"{npy_log_path}/{filename}_lognorm", im_lognorm)
