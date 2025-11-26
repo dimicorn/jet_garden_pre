@@ -1,0 +1,18 @@
+[project]
+name = "pre"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "astropy>=7.2.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.5",
+    "opencv-python>=4.11.0.86",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.1",
+    "ruff>=0.14.6",
+]
