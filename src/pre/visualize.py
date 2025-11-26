@@ -1,8 +1,8 @@
 import re
 import numpy as np
 import matplotlib.pyplot as plt
-from load import fits2numpy
-from preprocess import preprocess, preprocess_lognorm
+from .load import fits2numpy
+from .preprocess import preprocess, preprocess_lognorm
 
 
 def getLabel(im: np.ndarray) -> str:

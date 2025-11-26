@@ -598,7 +598,7 @@ requires-dist = [
     { name = "kiwisolver", specifier = "==1.4.9" },
     { name = "matplotlib", specifier = "==3.10.7" },
     { name = "numpy", specifier = "==2.3.5" },
-    { name = "opencv-python", specifier = "==4.11.0.86" },
+    { name = "opencv-python", specifier = ">=4.11.0.86" },
     { name = "packaging", specifier = "==25.0" },
     { name = "pillow", specifier = "==12.0.0" },
     { name = "pluggy", specifier = "==1.6.0" },
