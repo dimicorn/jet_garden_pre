@@ -3,13 +3,13 @@ import numpy as np
 
 
 def fits2numpy(path2file: str) -> np.ndarray:
-    """_Read fits file and get data from primary table._
+    """Read fits file and get data from primary table.
 
     Args:
-        path2file (str): _path to the fits file._
+        path2file (str): path to the fits file.
 
     Returns:
-        np.ndarray: _data from the primary table of the fits file._
+        np.ndarray: data from the primary table of the fits file.
     """
     raw_image = fits.getdata(path2file).astype(np.float32)
     # removing excessive dimensions, leaving only height & width
