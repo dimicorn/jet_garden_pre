@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.1] - 2025-12-10
+
+### 📚 Documentation
+
+- Filling doc strings, made preprocess more robust
+
+### 🧪 Testing
+
+- Adding tests for load and preprocess
+
 ## [0.1.0] - 2025-12-08
 
 ### 🚀 Features
