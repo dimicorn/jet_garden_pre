@@ -16,7 +16,7 @@ dependencies = [
     "fonttools==4.60.1",
     "iniconfig==2.3.0",
     "kiwisolver==1.4.9",
-    "matplotlib==3.10.7",
+    "matplotlib>=3.10.7",
     "numpy>=2",
     "opencv-python>=4.11.0.86",
     "packaging==25.0",
